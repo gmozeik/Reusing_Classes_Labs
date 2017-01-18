@@ -8,6 +8,7 @@ public class SuperHuman extends Human{
     private String ability;
 
     String getAllegiance() {
+        System.out.println("Allegiance is " + allegiance);
         return allegiance;
     }
 
@@ -17,6 +18,7 @@ public class SuperHuman extends Human{
     }
 
     String getHeroName() {
+        System.out.println("Hero name is " + heroName);
         return heroName;
     }
 
@@ -26,6 +28,7 @@ public class SuperHuman extends Human{
     }
 
     String getAbility() {
+        System.out.println("Ability is " + ability);
         return ability;
     }
 

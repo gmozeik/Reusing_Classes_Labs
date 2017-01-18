@@ -13,35 +13,35 @@ public class Human {
         Human gerrod = new Human();
         SuperHuman spiderman = new SuperHuman();
         gerrod.setName("Gerrod");
-        System.out.println("Human name is " + gerrod.getName());
+        gerrod.getName();
         gerrod.setAge(25);
-        System.out.println("Human age is " + gerrod.getAge());
+        gerrod.getAge();
         gerrod.setGender('m');
-        System.out.println("Human gender is " + gerrod.getGender());
+        gerrod.getGender();
         gerrod.setOccupation("Coder");
-        System.out.println("Human occupation is " + gerrod.getOccupation());
+        gerrod.getOccupation();
         gerrod.setAddress("323 Skeet Ave");
-        System.out.println("Human address is " + gerrod.getAddress());
+        gerrod.getAddress();
         spiderman.setName("Spiderman");
-        System.out.println("Superhero name is " + spiderman.getName());
+        spiderman.getName();
         spiderman.setAge(30);
-        System.out.println("Superhero age is " + spiderman.getAge());
+        spiderman.getAge();
         spiderman.setGender('m');
-        System.out.println("Superhero gender is " + spiderman.getGender());
+        spiderman.getGender();
         spiderman.setOccupation("Superhero");
-        System.out.println("Superhero occupation is " + spiderman.getOccupation());
+        spiderman.getOccupation();
         spiderman.setAddress("111 New York Rd");
-        System.out.println("Superhero address is " + spiderman.getAddress());
+        spiderman.getAddress();
         spiderman.setAllegiance("Good");
-        System.out.println("Superhero allegiance is " + spiderman.getAllegiance());
+        spiderman.getAllegiance();
         spiderman.setAbility("Spider powers");
-        System.out.println("Superhero ability is " + spiderman.getAbility());
+        spiderman.getAbility();
         spiderman.setHeroName("Spiderman");
-        System.out.println("Superhero name is " + spiderman.getHeroName());
-
+        spiderman.getHeroName();
     }
 
     String getName() {
+        System.out.println("Name is " + name);
         return name;
     }
 
@@ -51,6 +51,7 @@ public class Human {
     }
 
     int getAge() {
+        System.out.println("Age is " + age);
         return age;
     }
 
@@ -60,6 +61,7 @@ public class Human {
     }
 
     char getGender() {
+        System.out.println("Gender is " + gender);
         return gender;
     }
 
@@ -69,6 +71,7 @@ public class Human {
     }
 
     String getOccupation() {
+        System.out.println("Occupation is " + occupation);
         return occupation;
     }
 
@@ -78,6 +81,7 @@ public class Human {
     }
 
     String getAddress() {
+        System.out.println("Address is " + address);
         return address;
     }
 
