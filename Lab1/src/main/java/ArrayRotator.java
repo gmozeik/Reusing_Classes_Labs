@@ -3,6 +3,7 @@ import java.util.*;
 
 /**
  * Created by gerrodmozeik on 1/18/17.
+ * Got loop help from here: http://www.geeksforgeeks.org/array-rotation/
  */
 public class ArrayRotator extends ArrayList {
 
