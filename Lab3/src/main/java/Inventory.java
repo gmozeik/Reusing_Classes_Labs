@@ -10,7 +10,7 @@ public class Inventory {
 
     public double getTotalValueOfAllProducts() {
         for (int i = 1; i <= products.size(); i++) {
-            
+
         }
     }
 }
