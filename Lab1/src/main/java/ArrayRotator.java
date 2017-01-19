@@ -4,6 +4,8 @@ import java.util.*;
 /**
  * Created by gerrodmozeik on 1/18/17.
  * Got loop help from here: http://www.geeksforgeeks.org/array-rotation/
+ * Creates and fills a new ArrayList. Moves all list items that have space to go to the left there, then goes through
+ * the rest of the list items to assign them to a swap variable, which appends them to the end of the list.
  */
 public class ArrayRotator extends ArrayList {
 
